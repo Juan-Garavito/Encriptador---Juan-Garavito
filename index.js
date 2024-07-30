@@ -105,11 +105,11 @@ $botonVerde.addEventListener("click", () => {
 function encriptar(texto) {
     let textoEncriptado;
 
-    textoEncriptado = texto.replace(/e/, "enter");
-    textoEncriptado = textoEncriptado.replace(/i/, "imes");
-    textoEncriptado = textoEncriptado.replace(/a/, "ai");
-    textoEncriptado = textoEncriptado.replace(/o/, "ober");
-    textoEncriptado = textoEncriptado.replace(/u/, "ufat");
+    textoEncriptado = texto.replace(/e/g, "enter");
+    textoEncriptado = textoEncriptado.replace(/i/g, "imes");
+    textoEncriptado = textoEncriptado.replace(/a/g, "ai");
+    textoEncriptado = textoEncriptado.replace(/o/g, "ober");
+    textoEncriptado = textoEncriptado.replace(/u/g, "ufat");
 
     return textoEncriptado;
 }
@@ -117,11 +117,11 @@ function encriptar(texto) {
 function desencriptar(texto) {
     let textoDesencriptado;
 
-    textoDesencriptado = texto.replace(/enter/, "e");
-    textoDesencriptado = textoDesencriptado.replace(/imes/, "i");
-    textoDesencriptado = textoDesencriptado.replace(/ai/, "a");
-    textoDesencriptado = textoDesencriptado.replace(/ober/, "o");
-    textoDesencriptado = textoDesencriptado.replace(/ufat/, "u");
+    textoDesencriptado = texto.replace(/enter/g, "e");
+    textoDesencriptado = textoDesencriptado.replace(/imes/g, "i");
+    textoDesencriptado = textoDesencriptado.replace(/ai/g, "a");
+    textoDesencriptado = textoDesencriptado.replace(/ober/g, "o");
+    textoDesencriptado = textoDesencriptado.replace(/ufat/g, "u");
 
     return textoDesencriptado;
 }
