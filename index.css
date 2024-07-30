@@ -43,7 +43,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: 80vh;
-    margin: 50px 0;
+    margin: 30px 0 0 0;
 }
 
 .contenido_color {
@@ -234,6 +234,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 5px;
+    margin: 20px 0 0 0;
 }
 
 .footer_texto_link {
